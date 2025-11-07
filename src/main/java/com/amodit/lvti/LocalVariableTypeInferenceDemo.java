@@ -7,7 +7,7 @@ public class LocalVariableTypeInferenceDemo {
 	public static void main(String[] args) {
 		
 		var x = 10; // must initialize it at declaration.
-		x = 11;
+		x = 11; // we can re-initalize the var variable.
 		
 		var stringName = (String)null;
 		stringName = "Ronny";
