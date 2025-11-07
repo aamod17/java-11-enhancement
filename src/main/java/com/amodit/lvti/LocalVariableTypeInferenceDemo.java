@@ -8,7 +8,7 @@ public class LocalVariableTypeInferenceDemo {
 		
 		var x = 10; // must initialize it at declaration.
 		x = 11; // we can re-initalize the var variable.
-		
+		// x = "Ram" // we can not change the type of the var once it is initialize.
 		var stringName = (String)null;
 		stringName = "Ronny";
 		var name = "Ram";
