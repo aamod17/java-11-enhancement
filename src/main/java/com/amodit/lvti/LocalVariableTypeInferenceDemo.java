@@ -6,7 +6,7 @@ public class LocalVariableTypeInferenceDemo {
 	
 	public static void main(String[] args) {
 		
-		var x = 10;
+		var x = 10; // must initialize it at declaration.
 		x = 11;
 		
 		var stringName = (String)null;
